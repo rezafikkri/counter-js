@@ -54,6 +54,9 @@ h1 {
 .logo.vanilla:hover {
   filter: drop-shadow(0 0 2em #f7df1eaa);
 }
+.logo.reza:hover {
+  filter: drop-shadow(0 0 2em #020202aa);
+}
 
 .card {
   padding: 2em;

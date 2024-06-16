@@ -1,10 +1,8 @@
-export default function setupCounter(element) {
-  let counter = 0;
-  const setCounter = (count) => {
-    counter = count;
-    element.innerHTML = `count is ${counter}`;
-  };
+export function setupMultiple(multiple) {
+  if (multiple >= 5) return 1;
+  return multiple + 2;
+}
 
-  element.addEventListener('click', () => setCounter(counter + 1));
-  setCounter(0);
+export function setupCounter(count, multiple) {
+  return count + multiple;
 }

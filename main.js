@@ -21,6 +21,7 @@ document.querySelector('#app').innerHTML = `
     <p class="read-the-docs">
       Click on the logo to learn more
     </p>
+    <strong>ini update</strong>
   </div>
 `;
 

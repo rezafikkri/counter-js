@@ -1,5 +1,5 @@
 export function setupMultiple(multiple) {
-  if (multiple >= 5) return 10;
+  if (multiple >= 5) return 1;
   return multiple + 2;
 }
 
